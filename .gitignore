@@ -1,8 +1,3 @@
-# personal data — never commit
-filters.js
-.playwright-user-data
-.user-data
-
 # build output
 out/
 
@@ -11,3 +6,7 @@ node_modules/
 
 # env
 .env
+
+# personal data
+.playwright-user-data
+.user-data
