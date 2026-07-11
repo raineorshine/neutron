@@ -1,1 +1,13 @@
+# personal data — never commit
+filters.js
+.playwright-user-data
 .user-data
+
+# build output
+out/
+
+# dependencies
+node_modules/
+
+# env
+.env
