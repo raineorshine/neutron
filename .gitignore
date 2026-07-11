@@ -1,2 +1,12 @@
-.user-data
+# build output
+out/
+
+# dependencies
+node_modules/
+
+# env
+.env
+
+# personal data
 .playwright-user-data
+.user-data

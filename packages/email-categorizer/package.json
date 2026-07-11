@@ -1,0 +1,22 @@
+{
+  "name": "email-categorizer",
+  "version": "0.0.0",
+  "private": true,
+  "description": "AI classification + sieve rule collection + orchestration for neutron",
+  "license": "ISC",
+  "main": "index.js",
+  "bin": {
+    "neutron-categorize": "bin/categorize.js",
+    "neutron-deploy": "bin/deploy.js"
+  },
+  "scripts": {
+    "categorize": "node bin/categorize.js",
+    "deploy": "node bin/deploy.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.30.0",
+    "protonmail-client": "*",
+    "sieve-builder": "github:raineorshine/sieve-builder"
+  }
+}

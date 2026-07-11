@@ -1,0 +1,14 @@
+{
+  "name": "protonmail-client",
+  "version": "0.0.0",
+  "private": true,
+  "description": "ProtonMail web automation + persistent auth session (Playwright)",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "playwright": "^1.60.0"
+  }
+}

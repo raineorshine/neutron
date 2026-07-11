@@ -1,0 +1,6 @@
+.playwright-user-data
+.user-data
+out/
+node_modules/
+filters.js
+package-lock.json
